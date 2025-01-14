@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(17, 77, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    height:60px;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    padding:5px 5px;
+}
+
+nav ul li{
+    margin:0px 10px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    margin-right: 2px;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    width:70%;
+    margin:23px auto;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url("61b21e21ffe503610db4965eaf68b90e.jpg");
+}
+
+.song-list{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    width:40%;
+    padding:5px 10px;
+    border-radius: 18px;
+}
+
+.song-item{
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:12px 0;
+    border: 2px solid rgb(15, 41, 15);
+    border-radius: 15px;
+}
+
+.song-item img{
+    width:40px;
+}
+
+.start-time i{
+    margin-left:34px;
+}
+
+.bottom{
+    position:sticky;
+    height:90px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.play-bar{
+    width:70vw;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.icons{
+    font-size: 1.7em;
+}
+
+i{
+    cursor: pointer;
+}
+
+.song-info{
+    display: flex;
+    justify-items: flex-start;
+    position: relative;
+    right:31vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.song-info img{
+    width:50px;
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.song-name-playing{
+    font-size: 15px;
+    margin-top: 17px;
+}
+

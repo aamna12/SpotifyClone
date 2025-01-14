@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="sc.css">
+    <link rel="icon" href="Spotify_Primary_Logo_RGB_Green.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+        <li class="logo-container">
+            <img src="Spotify_Primary_Logo_RGB_Green.png" class="logo" alt="Spotify">Spotify
+        </li>
+        <li>Home</li>
+        <l1>About</l1>
+    </ul>
+    </nav>
+    <div class="container">
+        <div class="song-list">
+            <h2>Best of TheWeeknd</h2>
+            <div class="song-item-container">
+            <div class="song-item">
+                <img src="covers/images.jpg" alt="timeless">
+                <p class="song-name">Timeless </p>
+                    <p class="start-time">05:00
+                        <i id="0" class="fa-solid song-item-play fa-play"></i>
+                    </p>
+            </div>
+
+            <div class="song-item">
+                <img src="covers/download.jpg" alt="reminder">
+                <p class="song-name">Reminder</p>
+                    <p class="start-time">05:00
+                        <i id="1" class="fa-solid song-item-play fa-play"></i>
+                    </p>
+                
+            </div>
+
+            <div class="song-item">
+                <img src="covers/ab67616d0000b2734718e2b124f79258be7bc452.jpg" alt="starboy">
+                <p class="song-name">Starboy</p>
+                    <p class="start-time">05:00
+                        <i id="2" class="fa-solid song-item-play fa-play"></i>
+                    </p>
+                
+            </div>
+
+            <div class="song-item">
+                <img src="covers/ab67616d0000b2734718e2b124f79258be7bc452.jpg" alt="dieforyou">
+                <p class="song-name">Die For You</p>
+                    <p class="start-time">05:00
+                        <i id="3" class="fa-solid song-item-play fa-play"></i>
+                    </p>
+                
+            </div>
+
+            <div class="song-item">
+                <img src="covers/ab67616d00001e02b0dd6a5cd1dec96c4119c262.jpg" alt="oneofthegirls">
+                <p class="song-name">One of the Girls</p>
+                    <p class="start-time">05:00
+                        <i id="4" class="fa-solid song-item-play fa-play"></i>
+                    </p>    
+            </div>
+        </div>
+        </div>
+        <div class="song-banner">
+
+        </div>
+    </div>
+    <div class="bottom">
+        <input class="play-bar" type="range" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="prev" class="fa-solid fa-backward"></i>
+            <i class="fa-regular fa-circle-play" id="master-play"></i>
+            <i id="next" class="fa-solid fa-forward"></i>  
+        </div>
+        <div class="song-info">
+            <img src="giphy.gif" alt="playing-music" id="gif">
+            <p class="song-name-playing">- Timeless</p>
+        </div>
+    </div>
+    
+    <script src="sc.js"></script>
+</body>
+</html>
